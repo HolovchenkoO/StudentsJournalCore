@@ -14,8 +14,13 @@ export class StudentComponent implements OnInit {
   ngOnInit() {
     this.student = {
       id: 1,
-      name: 'Vasya',
-      marks: [12, 10, 11, 11]
+      name: 'Alex',
+      age: 23,
+      groupe: 'SPD93',
+      course: '3',
+      marks: [10, 11, 8, 10]
     };
+
+    
   }
 }
