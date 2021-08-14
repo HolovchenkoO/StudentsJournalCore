@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WorkApp.Database.Entities;
+using StudentsJournalCore.Database.Entities;
 
-namespace WorkApp.Database.Common
+namespace StudentsJournalCore.Database.Common
 {
     public class DatabaseContext: DbContext
     {

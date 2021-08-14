@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "WorkApp": {
+    "StudentsJournalCore": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -53,18 +53,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "WorkApp:build"
+            "browserTarget": "StudentsJournalCore:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "WorkApp:build:production"
+              "browserTarget": "StudentsJournalCore:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "WorkApp:build"
+            "browserTarget": "StudentsJournalCore:build"
           }
         },
         "test": {
@@ -124,7 +124,7 @@
         }
       }
     },
-    "WorkApp-e2e": {
+    "StudentsJournalCore-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -132,7 +132,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "WorkApp:serve"
+            "devServerTarget": "StudentsJournalCore:serve"
           }
         },
         "lint": {
@@ -147,5 +147,5 @@
       }
     }
   },
-  "defaultProject": "WorkApp"
+  "defaultProject": "StudentsJournalCore"
 }

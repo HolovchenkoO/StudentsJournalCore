@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WorkApp.Database.Repositories
+namespace StudentsJournalCore.Database.Repositories
 {
     public interface IRepositoryAsync<TKey, TValue> 
         where TKey: struct

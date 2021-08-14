@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WorkApp
+namespace StudentsJournalCore
 {
     public class Program
     {
@@ -22,5 +22,7 @@ namespace WorkApp
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
+
     }
 }

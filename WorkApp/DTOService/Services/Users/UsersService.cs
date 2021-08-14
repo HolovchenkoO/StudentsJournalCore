@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WorkApp.Database.Entities;
+using StudentsJournalCore.Database.Entities;
 
 namespace StudentsJournalCore.DTOService.Services.Users
 {
@@ -135,6 +135,11 @@ namespace StudentsJournalCore.DTOService.Services.Users
             };
 
             await unitOfWork.UsersRepository.UpdateAsync(u);
+        }
+        public async Task<UserDTO> GetUserByLoginData(string login, string password)
+        {
+            var users = await GetAllUsers();
+            return users.FirstOrDefault(u => u.Login.Equals(login) && u.Password.Equals(password));
         }
     }
 }

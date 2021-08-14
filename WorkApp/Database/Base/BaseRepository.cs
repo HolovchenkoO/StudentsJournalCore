@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WorkApp.Database.Common;
-using WorkApp.Database.Repositories;
+using StudentsJournalCore.Database.Common;
+using StudentsJournalCore.Database.Repositories;
 
-namespace WorkApp.Database.Base
+namespace StudentsJournalCore.Database.Base
 {
     public abstract class BaseRepository<TKey, TValue> : IRepositoryAsync<TKey, TValue>
         where TKey : struct

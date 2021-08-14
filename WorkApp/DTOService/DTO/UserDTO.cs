@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static StudentsJournalCore.Database.Entities.User;
 
 namespace StudentsJournalCore.DTOService.DTO
 {
@@ -10,6 +11,7 @@ namespace StudentsJournalCore.DTOService.DTO
         public int Id { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
+        public AuthRole Role { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }

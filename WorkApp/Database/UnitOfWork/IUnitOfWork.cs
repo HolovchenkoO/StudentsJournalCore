@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WorkApp.Database.Repositories;
+using StudentsJournalCore.Database.Repositories;
 
 namespace StudentsJournalCore.Database.UnitOfWork
 {

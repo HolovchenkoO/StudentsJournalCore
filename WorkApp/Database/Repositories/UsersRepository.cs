@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WorkApp.Database.Base;
-using WorkApp.Database.Common;
-using WorkApp.Database.Entities;
+using StudentsJournalCore.Database.Base;
+using StudentsJournalCore.Database.Common;
+using StudentsJournalCore.Database.Entities;
 
-namespace WorkApp.Database.Repositories
+namespace StudentsJournalCore.Database.Repositories
 {
     public class UsersRepository: BaseRepository<int, User>
     {
